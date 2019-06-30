@@ -2,9 +2,9 @@ import cv2
 import numpy as np
 import os
 
-path_to_save = 'data/images/passenger/'
+path_to_save = 'YOUR_FILE_PATH_HERE'
 
-#get filepath for desired video
+#get file path for desired video
 cap = cv2.VideoCapture('YOUR_FILE_PATH_HERE')
 currentFrame = 0
 
