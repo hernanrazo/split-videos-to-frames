@@ -20,7 +20,7 @@ def main():
     if (cap.isOpened() == False):
         print('Cap is not open')
 
-    # cap opened successful
+    # cap opened successfully
     while(cap.isOpened()):
 
         # capture each frame
@@ -29,7 +29,7 @@ def main():
 
             # Save frame as a jpg file
             name = 'frame' + str(current_frame) + '.jpg'
-            print (f'Creating: {name}')
+            print(f'Creating: {name}')
             cv2.imwrite(os.path.join(path_to_save, name), frame)
 
             # keep track of how many images you end up with
