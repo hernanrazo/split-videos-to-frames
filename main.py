@@ -15,7 +15,7 @@ def main():
     cap = cv2.VideoCapture(args.source)
     path_to_save = os.path.abspath(args.dest_folder)
     
-    current_frame = 110
+    current_frame = 1
 
     if (cap.isOpened() == False):
         print('Cap is not open')
