@@ -1,0 +1,8 @@
+*~
+*.swp
+*.swo
+.DS_Store
+__pycache__/
+*.mp4
+*.mov
+frames/
